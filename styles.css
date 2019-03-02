@@ -1,0 +1,47 @@
+body {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 16px;
+  animation-duration: 5s;
+  animation-name: change-color;
+  animation-iteration-count: infinite;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.hello {
+  font-size: 8rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  color: #ffffff;
+}
+
+footer {
+  font-family: 'Srisakdi', cursive;
+  text-align: right;
+  font-size: 2rem;
+  margin: 0 2rem;
+}
+
+@keyframes change-color {
+  0% {
+    background-color: #fa255e;
+  }
+
+  33% {
+    background-color: #c39ea0;
+  }
+
+  67% {
+    background-color: #cfcfc4;
+  }
+
+  100% {
+    background-color: #fa255e;
+  }
+}
