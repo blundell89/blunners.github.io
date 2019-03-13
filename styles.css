@@ -4,6 +4,8 @@ body {
   animation-duration: 5s;
   animation-name: change-color;
   animation-iteration-count: infinite;
+  margin: 0;
+  max-height: 100vh;
 }
 
 a {
@@ -17,31 +19,33 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
   color: #ffffff;
+  height: 100vh;
 }
 
 footer {
   font-family: 'Srisakdi', cursive;
   text-align: right;
-  font-size: 2rem;
-  margin: 0 2rem;
+  font-size: 4rem;
+  position: relative;
+  bottom: 5rem;
+  right: 1rem;
 }
 
 @keyframes change-color {
   0% {
-    background-color: #fa255e;
+    background-color: #ff6961;
   }
 
   33% {
-    background-color: #c39ea0;
+    background-color: #aec6cf;
   }
 
-  67% {
+  66% {
     background-color: #cfcfc4;
   }
 
   100% {
-    background-color: #fa255e;
+    background-color: #ff6961;
   }
 }
